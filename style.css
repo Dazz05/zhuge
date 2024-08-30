@@ -1,0 +1,63 @@
+/* styles.css */
+
+/* 基本样式 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.image {
+    position: relative;
+    }
+h1, h2 {
+    color: #333;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #6f42c1;
+}
+
+a:active {
+    color: #d9534f;
+}
+
+/* 目录部分 */
+p {
+    margin: 10px 0;
+}
+
+/* 链接状态颜色 */
+a:link {
+    color: #1a73e8; /* 链接的默认颜色 */
+}
+
+a:visited {
+    color: #6f42c1; /* 已访问链接的颜色 */
+}
+
+a:hover {
+    color: #e74c3c; /* 鼠标悬停时的颜色 */
+}
+
+a:active {
+    color: #d9534f; /* 活动链接的颜色 */
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+body {background-color: tan;}
+
+table, th, td {
+    border: 1px solid black;
+  }
